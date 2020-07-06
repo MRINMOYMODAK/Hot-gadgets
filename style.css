@@ -8,23 +8,61 @@
 .card{
     border: none;
     box-shadow: 5px 5px 10px lightgrey;
-    border-radius: 15px;
+    border-radius: 35px;
+}
+
+.card:hover{
+    box-shadow: 20px 20px 20px lightgray;
 }
 
 .card-footer{
     border: none;
     background-color: white;
 }
+
 .cat-bag{
-    border: green;
-}
-.cat-bag{
-    background-color:whitesmoke;
-    border: violet;
+    background-color:white;
+    box-shadow: 10px 10px 15px grey;
+    padding: 50px;
+    border-radius: 20px;
 }
 .cat-shoes{
-    background-color:whitesmoke;
+    background-color:white;
+    box-shadow: 10px 10px 15px grey;
+    padding: 50px;
+    border-radius: 20px;
 }
 .cat-beauty{
-    background-color: whitesmoke;
+    background-color: white;
+    box-shadow: 10px 10px 15px grey;
+    padding: 50px;
+    border-radius: 20px;
+}
+
+.cat-bag:hover{
+    background-color:white;
+    box-shadow: 10px 10px 15px gray;
+    padding: 60px;
+    border-radius: 20px;
+
+}
+.cat-shoes:hover{
+    background-color:white;
+    box-shadow: 10px 10px 15px gray;
+    padding: 60px;
+    border-radius: 20px;
+}
+.cat-beauty:hover{
+    background-color:white;
+    box-shadow: 10px 10px 15px gray;
+    padding: 60px;
+    border-radius: 20px;
+}
+.pale-order img{
+    padding-top: 100px;
+    width: 100%;
+
+}
+.pale-order img:hover{
+    width: 105%;
 }
